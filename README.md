@@ -1,10 +1,10 @@
 # はんそくカナ打ち (For Japanese Kana Input on US keyboard at Mac)
 
-![はんそくカナ打ちのマッピング](https://i.gyazo.com/85dbaad888de51c3c137c46cbbd520c7.png)
+![はんそくカナ打ちのマッピング](https://i.gyazo.com/d7eac02269f380c953772235ce6e97f4.png)
 
 USキーボードに合わせて、カナの位置を調整したかな入力用配列です。「ATOK」並びに「ことえり」と組み合わせて利用することができます。
 
-「ことえり」の配列を参考に<kbd>む</kbd> <kbd>ろ</kbd> <kbd>「</kbd> <kbd>」</kbd>の位置を調整してあります。USキーボードであってもJIS配列と大きく差分のないタイピングを実現できます。
+「ことえり」の配列を参考に<kbd>む</kbd> <kbd>ろ</kbd>　<kbd>ほ</kbd> <kbd>へ</kbd> <kbd>「</kbd> <kbd>」</kbd> <kbd>゛</kbd> <kbd>゜</kbd> <kbd>ー</kbd>の位置をJISキーボードとなるべく変わらないように調整してあります。USキーボードであってもJIS配列と大きく差分のないタイピングを実現できます。
 
 また、同じUSキーボードでかな入力をする思想の『「はんそく」カナ配列』を取り入れてあります。
 
@@ -39,11 +39,9 @@ Karabiner-Elements でキーマッピングを行います。[/karabiner/assets/
 - <kbd>Shift + そ</kbd> → <kbd>ろ</kbd>
 - <kbd>Shift + く</kbd> → <kbd>へ</kbd>
 
-### マッピング図
+### 最終的なキーマッピング図
 
-![はんそくカナ打ちのマッピング](https://i.gyazo.com/85dbaad888de51c3c137c46cbbd520c7.png)
-
-![はんそくカナ打ちのマッピング(フルキー)](https://i.gyazo.com/235f468f148318d39452939bf7c065c0.png)
+![はんそくカナ打ちのマッピング(フルキー)](https://i.gyazo.com/cd5cef96757431222ac22f37ffdef17e.png)
 
 ## 参考
 
