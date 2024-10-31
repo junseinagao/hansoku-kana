@@ -1,0 +1,255 @@
+{
+  "title": "はんそくカナ打ち (For Japanese Kana Input on US keyboard at Mac)",
+  "rules": [
+    {
+      "description": "Mac USキーボードで「はんそくカナ打ち」にキーマップ(「ことえり」、「ATOK」限定)",
+      "manipulators": [
+        {
+          "description": "【へ】→【む】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "backslash"
+          },
+          "to": [
+            {
+              "key_code": "close_bracket"
+            }
+          ]
+        },
+        {
+          "description": "【゜】→【へ】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "equal_sign"
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ]
+        },
+        {
+          "description": "【」】→【「】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign",
+              "modifiers": ["shift"]
+            }
+          ]
+        },
+        {
+          "description": "【ー】→【」】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket",
+              "modifiers": ["shift"]
+            }
+          ]
+        },
+        {
+          "description": "【む】→【゜】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "close_bracket"
+          },
+          "to": [
+            {
+              "key_code": "equal_sign"
+            }
+          ]
+        },
+        {
+          "description": "【ほ】(SHIFT)→【ー】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket",
+              "modifiers": ["shift"]
+            }
+          ]
+        },
+        {
+          "description": "【ん】(SHIFT)→【む】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "close_bracket"
+            }
+          ]
+        },
+        {
+          "description": "【く】(SHIFT)→【へ】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ]
+        },
+        {
+          "description": "【は】(SHIFT)→【け】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "quote"
+            }
+          ]
+        },
+        {
+          "description": "【そ】(SHIFT)→【ろ】",
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "language": "^ja$"
+                }
+              ]
+            }
+          ],
+          "from": {
+            "key_code": "c",
+            "modifiers": {
+              "mandatory": ["shift"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "quote",
+              "modifiers": ["shift"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
