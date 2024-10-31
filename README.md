@@ -1,5 +1,7 @@
 # はんそくカナ打ち (For Japanese Kana Input on US keyboard at Mac)
 
+![はんそくカナ打ちのマッピング](https://i.gyazo.com/85dbaad888de51c3c137c46cbbd520c7.png)
+
 USキーボードに合わせて、カナの位置を調整したかな入力用配列です。「ATOK」並びに「ことえり」と組み合わせて利用することができます。
 
 「ことえり」の配列を参考に<kbd>む</kbd> <kbd>ろ</kbd> <kbd>「</kbd> <kbd>」</kbd>の位置を調整してあります。USキーボードであってもJIS配列と大きく差分のないタイピングを実現できます。
