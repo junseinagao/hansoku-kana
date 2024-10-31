@@ -43,6 +43,8 @@ Karabiner-Elements でキーマッピングを行います。[/karabiner/assets/
 
 ![はんそくカナ打ちのマッピング](https://i.gyazo.com/85dbaad888de51c3c137c46cbbd520c7.png)
 
+![はんそくカナ打ちのマッピング(フルキー)](https://i.gyazo.com/235f468f148318d39452939bf7c065c0.png)
+
 ## 参考
 
 - [「はんそく」カナ配列](https://cognitom.github.io/sankaku/archived/hansoku-jis.html)
